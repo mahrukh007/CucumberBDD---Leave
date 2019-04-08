@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4694161277,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LeaveSteps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login into account with correct validation and apply leaves",
+        "description": "",
+        "id": "apply-leaves;login-into-account-with-correct-validation-and-apply-leaves",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2794222988,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to ESS",
+            "match": {
+              "location": "LeaveSteps.user_navigates_to_ESS()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2602787365,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters login credentials",
+            "match": {
+              "location": "LeaveSteps.user_enters_login_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1793954422,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to Leave Managment \u003e\u003e Leave Request",
+            "match": {
+              "location": "LeaveSteps.user_navigates_to_Leave_Managment_Leave_Request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1602136476,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks ADD button",
+            "match": {
+              "location": "LeaveSteps.user_clicks_ADD_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1225242555,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects leave type",
+            "match": {
+              "location": "LeaveSteps.user_selects_leave_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1204190842,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters days",
+            "match": {
+              "location": "LeaveSteps.user_enters_days()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2671599089,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters start date",
+            "match": {
+              "location": "LeaveSteps.user_enters_start_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166221550,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters Reason",
+            "match": {
+              "location": "LeaveSteps.user_enters_Reason()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 937738230,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks save button",
+            "match": {
+              "location": "LeaveSteps.user_clicks_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1590450392,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks submit for approval button",
+            "match": {
+              "location": "LeaveSteps.user_clicks_submit_for_approval_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41254105,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Record is submitted",
+            "match": {
+              "location": "LeaveSteps.record_is_submitted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "apply leaves",
+    "description": "",
+    "id": "apply-leaves",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/webuniversity/CucumberFrameworkESS/FeatureFiles/Leave.Feature"
+  }
+]
